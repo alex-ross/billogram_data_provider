@@ -17,6 +17,13 @@ module TestHelpers
     stub_request(:get, "https://billogram.com/api/v2/billogram?page=1&page_size=1")
       .to_return(status: 200, body: json, headers: {})
   end
+
+  def stub_monthly_revenue_request
+    this_path = File.expand_path(File.dirname(File.dirname(__FILE__)))
+    json = File.read(File.join(this_path, 'spec', 'fixtures', 'responses', 'billogram.json'))
+    stub_request(:get, "https://billogram.com/api/v2/billogram?page=1&page_size=10000")
+      .to_return(status: 200, body: json, headers: {})
+  end
 end
 
 RSpec.configure do |config|

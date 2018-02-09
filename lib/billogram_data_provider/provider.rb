@@ -6,7 +6,14 @@ module BillogramDataProvider
 
     def fetch
       cash_flow = CashFlow.fetch(client: client)
-      Result.new([cash_flow.as_result_item])
+      monthly_revenue = MonthlyRevenue.fetch(client: client)
+
+      Result.new(
+        [
+          cash_flow.as_result_item,
+          monthly_revenue.as_result_item
+        ]
+      )
     end
 
     private

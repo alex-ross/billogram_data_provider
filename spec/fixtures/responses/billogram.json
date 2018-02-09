@@ -1,0 +1,629 @@
+{
+  "status": "OK",
+  "meta": {
+    "total_count": 31,
+    "total_remaining_sum": "762672.00"
+  },
+  "data": [
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 125000.0,
+      "created_at": "2015-05-20 07:27:30",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 07:28:35",
+      "currency": "SEK",
+      "state": "Factoring",
+      "remaining_sum": 125000.0,
+      "flags": [],
+      "ocr_number": "707983292",
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 302
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 0.0,
+      "created_at": "2015-05-20 13:11:48",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 13:11:48",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 0.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 440
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 0.0,
+      "created_at": "2016-11-18 13:16:08",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2016-11-18 13:16:08",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 0.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 268
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 250.0,
+      "created_at": "2015-05-20 13:13:48",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 13:13:48",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 250.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-20 07:20:33",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 07:20:33",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-20 07:20:50",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 07:20:50",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-20 10:46:22",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 10:46:22",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-20 10:57:45",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 10:57:45",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-22 13:36:04",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-22 13:36:04",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 8
+      },
+      "due_date": "2015-06-21",
+      "total_sum": 700.0,
+      "created_at": "2015-05-22 20:21:21",
+      "invoice_date": "2015-05-22",
+      "updated_at": "2015-05-22 20:21:21",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 700.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 430
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 1485.0,
+      "created_at": "2016-11-18 12:19:15",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2016-11-18 12:19:15",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1485.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 270
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 1500.0,
+      "created_at": "2015-05-20 13:27:22",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 13:27:22",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1500.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 218
+      },
+      "due_date": "2015-06-21",
+      "total_sum": 1500.0,
+      "created_at": "2015-05-22 20:17:45",
+      "invoice_date": "2015-05-22",
+      "updated_at": "2015-05-22 20:17:45",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1500.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 390
+      },
+      "due_date": "2015-06-21",
+      "total_sum": 1750.0,
+      "created_at": "2015-05-22 20:28:35",
+      "invoice_date": "2015-05-22",
+      "updated_at": "2015-05-22 20:28:35",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1750.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 390
+      },
+      "due_date": "2015-06-21",
+      "total_sum": 1750.0,
+      "created_at": "2015-05-22 20:33:10",
+      "invoice_date": "2015-05-22",
+      "updated_at": "2015-05-22 20:33:10",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1750.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 383
+      },
+      "due_date": "2015-06-21",
+      "total_sum": 1856.0,
+      "created_at": "2015-05-22 19:27:15",
+      "invoice_date": "2015-05-22",
+      "updated_at": "2015-05-22 19:27:15",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 1856.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 419
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 3775.0,
+      "created_at": "2016-11-18 13:14:45",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2016-11-18 13:14:45",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 3775.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 448
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 4250.0,
+      "created_at": "2016-11-18 13:01:02",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2016-11-18 13:01:02",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 4250.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 354
+      },
+      "due_date": "2015-06-24",
+      "total_sum": 10425.0,
+      "created_at": "2015-05-25 08:03:55",
+      "invoice_date": "2015-05-25",
+      "updated_at": "2015-05-25 08:03:55",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 10425.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 176
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 29375.0,
+      "created_at": "2016-11-18 13:04:01",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2016-11-18 13:04:01",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 29375.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 302
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 119520.0,
+      "created_at": "2015-05-20 13:14:58",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 13:14:59",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 119520.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 125000.0,
+      "created_at": "2015-05-20 07:34:12",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 07:34:13",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 125000.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 125000.0,
+      "created_at": "2015-05-20 09:36:24",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2015-05-20 09:36:24",
+      "currency": "SEK",
+      "state": "Unattested",
+      "remaining_sum": 125000.0,
+      "flags": [],
+      "ocr_number": null,
+      "invoice_no": null,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 13.0,
+      "created_at": "2015-05-20 12:05:22",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2018-02-08 23:03:39",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 13.0,
+      "flags": [],
+      "ocr_number": "9988965561979668",
+      "invoice_no": 61979,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 16
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 438.0,
+      "created_at": "2015-05-20 11:59:51",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2018-02-08 23:03:39",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 438.0,
+      "flags": [],
+      "ocr_number": "9988965561978967",
+      "invoice_no": 61978,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 203
+      },
+      "due_date": "2018-03-11",
+      "total_sum": 775.0,
+      "created_at": "2018-02-09 12:26:21",
+      "invoice_date": "2018-02-09",
+      "updated_at": "2018-02-09 12:26:22",
+      "currency": "SEK",
+      "state": "Unpaid",
+      "remaining_sum": 775.0,
+      "flags": [],
+      "ocr_number": "9988965561985665",
+      "invoice_no": 61985,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 33
+      },
+      "due_date": "2015-06-24",
+      "total_sum": 1500.0,
+      "created_at": "2015-05-25 07:48:35",
+      "invoice_date": "2015-05-25",
+      "updated_at": "2018-02-08 23:03:42",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 1500.0,
+      "flags": [],
+      "ocr_number": "9988965561982662",
+      "invoice_no": 61982,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 203
+      },
+      "due_date": "2016-12-18",
+      "total_sum": 1550.0,
+      "created_at": "2016-11-18 13:21:48",
+      "invoice_date": "2016-11-18",
+      "updated_at": "2018-02-08 23:15:52",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 1550.0,
+      "flags": [],
+      "ocr_number": "9988965561984569",
+      "invoice_no": 61984,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 28
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 6750.0,
+      "created_at": "2015-05-20 13:34:17",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2018-02-08 23:03:40",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 6750.0,
+      "flags": [],
+      "ocr_number": "9988965561980161",
+      "invoice_no": 61980,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 265
+      },
+      "due_date": "2015-06-19",
+      "total_sum": 42000.0,
+      "created_at": "2015-05-20 13:47:15",
+      "invoice_date": "2015-05-20",
+      "updated_at": "2018-02-08 23:03:41",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 42000.0,
+      "flags": [],
+      "ocr_number": "9988965561981268",
+      "invoice_no": 61981,
+      "id": "ABC123"
+    },
+    {
+      "customer": {
+        "name": "customer name",
+        "email": "name@example.com",
+        "org_no": "551234-1234",
+        "customer_no": 391
+      },
+      "due_date": "2015-10-09",
+      "total_sum": 154320.0,
+      "created_at": "2015-09-09 12:10:06",
+      "invoice_date": "2015-09-09",
+      "updated_at": "2018-02-08 23:05:08",
+      "currency": "SEK",
+      "state": "Overdue",
+      "remaining_sum": 154320.0,
+      "flags": [],
+      "ocr_number": "9988965561983561",
+      "invoice_no": 61983,
+      "id": "ABC123"
+    }
+  ]
+}
