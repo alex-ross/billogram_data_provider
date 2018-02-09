@@ -1,5 +1,23 @@
 require "bundler/setup"
+require 'webmock/rspec'
 require "billogram_data_provider"
+
+module TestHelpers
+  def stub_cash_flow_request(amount: 1_000_000)
+    json = <<~JSON
+      {
+        "status": "OK",
+        "meta": {
+          "total_count": 0,
+          "total_remaining_sum": "#{amount}.00"
+        },
+        "data": []
+      }
+    JSON
+    stub_request(:get, "https://billogram.com/api/v2/billogram?page=1&page_size=1")
+      .to_return(status: 200, body: json, headers: {})
+  end
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -11,4 +29,8 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  config.include TestHelpers
 end
+
+
